@@ -31,7 +31,7 @@ public class AdaptiveCompiler implements Compiler {
     public static void setDefaultCompiler(String compiler) {
         DEFAULT_COMPILER = compiler;
     }
-
+// Jason see config : META-INF.dubbo.internal > org.apache.dubbo.common.compiler.Compiler
     @Override
     public Class<?> compile(String code, ClassLoader classLoader) {
         Compiler compiler;

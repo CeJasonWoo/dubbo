@@ -323,7 +323,7 @@ public abstract class AbstractInterfaceConfig extends AbstractMethodConfig {
      *
      * @param provider whether it is the provider side
      * @return
-     */
+     */ // Jason 默认加载dubbo.properties配置 => registries
     protected List<URL> loadRegistries(boolean provider) {
         // check && override if necessary
         List<URL> registryList = new ArrayList<URL>();
